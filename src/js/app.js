@@ -7,9 +7,6 @@ function _adjustTypeformSize() {
   let w = $(window).height(),
       m = $('.masthead').outerHeight(),
       iframe = $('.typeform-widget').css('height', `${w-m}px`)
-
-  console.log('_adjustTypeformSize', w, m)
-
 }
 
 $(document)
